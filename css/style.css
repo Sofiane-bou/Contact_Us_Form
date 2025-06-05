@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+:root{
+    --main-color: purple;
+}
+body {
+    background-color: #c8e8e9;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: 80%;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.container .contact-info {
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.container .contact-info .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.container .contact-info .box i {
+    font-size: 30px;
+    color: var(--main-color);
+    margin-bottom: 8px;
+}
+.container .contact-info .box h4 {
+    font-weight: 600;
+    font-size: 18px;
+}
+.container .contact-info .box p {
+    font-size: 13px;
+    color: #525252;
+}
+.container .the-form {
+    padding: 40px 20px;
+    width: fit-content;
+}
+.container .the-form form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.container .the-form form .text {
+    margin-bottom: 10px;
+}
+.container .the-form form .text h3 {
+    color: var(--main-color);
+    font-size: 22px;
+}
+.container .the-form form .text p {
+    color: #242424;
+}
+.container .the-form form .fields input,
+.container .the-form form .fields textarea {
+    display: block;
+    outline: none;
+    border: none;
+    background-color: #F0F1F8;
+    padding: 15px 10px;
+    width: 100%;
+    margin: 5px 0;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+.container .the-form form .fields textarea {
+    min-height: 110px;
+}
+.container .the-form form .button {
+    margin-top: 15px;
+}
+.container .the-form form .button input {
+    background-color: var(--main-color);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 400;
+}
